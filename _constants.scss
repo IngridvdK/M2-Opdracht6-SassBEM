@@ -1,0 +1,14 @@
+$backcolor: #c0eea9;
+$backcolor2: #000;
+$backcolor3:  #97d279;
+$padding: 20px;
+
+@mixin flexwrap {
+    display: flex;
+    flex-wrap: wrap;  
+}
+@mixin textstyling {
+  max-width: 700px;
+    text-align: center;
+    padding: $padding;
+}
